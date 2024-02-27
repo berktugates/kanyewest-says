@@ -1,3 +1,8 @@
+<div id="kanye">
+    <img src="./public/kanye.gif">
+    <p>A simple website that generates random Kanye West quotes using the <a href="https://api.kanye.rest/" target="_blank">Kanye West API</a>.</p>
+</div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
