@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Logo from "../../public/next.svg"
+import Link from "next/link"
 export default function Navbar(){
     return(
         <>
@@ -10,7 +11,7 @@ export default function Navbar(){
                     width={100}
                     height={100}
                 />
-                <h1 className="font-semibold text-lg">Kanye West Quotes</h1>
+                <h1 className="font-semibold text-md l:text-lg"><Link href={{pathname:"https://kanye.rest/"}} target="_blank">Kanye West Quotes</Link></h1>
             </div>
         </>
     )

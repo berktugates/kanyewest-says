@@ -14,7 +14,6 @@ export default function Home() {
       .get("https://api.kanye.rest")
       .then((response) => {
         setQuotes(response.data);
-        console.log(response.data);
       })
       .catch((err) => {
         console.log(err);
@@ -43,10 +42,10 @@ export default function Home() {
         <Image
           src={Kanye}
           alt="Kanye"
-          className="text-center animate-spin mb-24"
+          className="text-center animate-spin mb-24 lp:mb-32 w-2/3 m:w-3/4 tb:w-1/2 lpl:w-1/4"
         />
-        <div className="p-2 bebas-neue-regular w-1/2">
-          <h1 className="text-6xl font-semibold mb-2">Kanye West says:</h1>
+        <div className="p-2 bebas-neue-regular w-2/3">
+          <h1 className="text-4xl l:text-5xl font-semibold mb-2">Kanye West says:</h1>
           <Quotes quotes={quotes} />
         </div>
       </div>
